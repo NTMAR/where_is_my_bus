@@ -19,7 +19,9 @@ app.use(helmet()); // Set security headers
 // --- CORRECTED CORS Configuration ---
 // List of allowed origins for development
 const allowedOrigins = [
-  'whereismybuses.netlify.app',
+  'http://localhost:3000',
+  'http://localhost:5173',
+  'https://whereismybuses.netlify.app' // This line is required
 ];
 
 const corsOptions = {
