@@ -19,10 +19,7 @@ app.use(helmet()); // Set security headers
 // --- CORRECTED CORS Configuration ---
 // List of allowed origins for development
 const allowedOrigins = [
-  'http://localhost:3000', // For standard Create React App
-  'http://localhost:5173', // For Vite (your current setup)
-  // Add your production URL when you deploy
-  // 'https://your-production-frontend-url.com'
+  'whereismybuses.netlify.app',
 ];
 
 const corsOptions = {
